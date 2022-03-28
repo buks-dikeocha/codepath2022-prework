@@ -56,7 +56,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    [YOUR ANSWER HERE]
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
-   [YOUR ANSWER HERE]
+   If I had more time to work on this project, I would like to implement a settings screen for our game so that the app could be more configurable. Perhaps, directly opposite the start button, a ‘settings’ button will appear. During the game the settings button will disappear. In settings, the user will be able to change the difficulty between easy, medium, and difficult, change the overall appearance of the game such as the background color and game button colors, and maybe we could also keep track of how many games the user won and how many they lost and display it there.
 
 ## Interview Recording URL Link
 
