@@ -1,18 +1,18 @@
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [0, 0, 0, 0, 0, 0, 0, 0];
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying = false;
 var volume = 0.1;
 var guessCounter = 0;
 
-const clueHoldTime = 500;
-const cluePauseTime = 333;
-const nextClueWaitTime = 1000;
+let clueHoldTime = 1000;
+let cluePauseTime = 1000;
+let nextClueWaitTime = 1000;
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2
+  1: 261.63,
+  2: 293.66,
+  3: 329.63,
+  4: 349.23
 }
 
 function startGame(){
@@ -30,7 +30,7 @@ function startGame(){
 }
 
 function stopGame(){
-    gamePlaying = false;
+  gamePlaying = false;
   document.getElementById("stopBtn").classList.add("hidden")
   document.getElementById("startBtn").classList.remove("hidden")
   
@@ -114,6 +114,8 @@ function guess(btn){
       else{
         progress++
         playClueSequence()
+        clueHoldTime -= 100
+        cluePauseTime -= 115
       }
     }
     else{
