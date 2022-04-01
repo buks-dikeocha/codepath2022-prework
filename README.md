@@ -1,12 +1,12 @@
-# Pre-work - _Memory Game_
+# Pre-work - _The Light and Sound Memory Game!!!_
 
-**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program.
+**The Light and Sound Memory Game!!!** is a Light & Sound Memory game to apply for CodePath's SITE Program.
 
 Submitted by: **Chukwuebuka Dikeocha**
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/thankful-plump-chord?path=README.md%3A46%3A36
 
 ## Required Functionality
 
@@ -38,7 +38,6 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![](https://i.imgur.com/QRmIvs5.gif)
 
 ## Reflection Questions
