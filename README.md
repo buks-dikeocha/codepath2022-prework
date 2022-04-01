@@ -48,9 +48,11 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
    - https://www.w3schools.com/cssref/default.asp
+   - https://developer.mozilla.org/en-US/docs/Web/API/AudioParam
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
-   [YOUR ANSWER HERE]
+   
+   One of the biggest challenges I faced working on this project was figuring out how the audio code worked. I have worked with JavaScript and other languages before, but never with the double pipe (||) being used the way it was used here, and never dealing with audio libraries. I didn't understand the AudioContext class or its methods createOscillator and createGain. Additionally, I couldn't understand why we used the arguments we used. For example, the arguments of the setTimeout method, setValueAtTime method and setTargetAtTime method. Because much of the code that deals with the audio is given without much deep explanation for the sake of simplicity, I had to do my own research into the audio library we used. Essentially, I overcame my confusion by looking up various websites and documentation that explained the code. In doing this, I clarified that, one, setTimeout is not inherently a function used for audio purposes, but runs the given function, after the given delay in milliseconds. I learned that AudioContext createOcillator creates the sound wave we perceive as the tone, and createGain controls the volume through the setTargetAtTime and setValueAtTime methods. Lastly, the strange use of the ‘or’ operator near the end of the code determines how the generated audio will connect to the device’s speakers.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
    
