@@ -63,11 +63,11 @@ Second, at one point I downloaded and extracted the .js, .html, and .css files f
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording]https://youtu.be/cbUMeJ5o3Ak
+https://youtu.be/cbUMeJ5o3Ak
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Chukwuebuka Dikeocha
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
